@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <head>
     <title>Caio's Biography</title>
-    <h4>Caio's Biography</h4>
+    <div id="cabecalho">
+        <h1 id="titulo-cabecalho">Caio's Biography</h1>
+    </div>
 </head>
 <body>
-    <img src="Images/eu.jpeg" height="200px" width="180px">
+    <div class="circle">
+        <img src="Images/eu.jpeg">
+    </div>
     <div class="biography-description">
         <p>From Monday to Friday I wake up at 6 am, help my mother with my brothers and get ready to go
-            to college, then I have classes until 12:50 pm and from 1:00 pm my internship begins until 5:00 pm, when I finish
+            to college, then I have classes until 12:50 pm and from 1:00 pm my internship begins until 5:00 pm, when I
+            finish
             I go to the gym and work out until about 7:30 pm and then I go home to study and help with my brothers.
             Finally around 23:30/00:00 I go to sleep. In the morning I also pack my lunchboxes
             for the whole day.
@@ -17,26 +22,54 @@
         </div>
     </div>
     <div class="find-me">
-        <a href="https://www.instagram.com/caiotbraga/">INSTAGRAM</a> 
+        <a href="https://www.instagram.com/caiotbraga/">INSTAGRAM</a>
         <a href="https://github.com/caiotbraga">GITHUB</a>
     </div>
-    <div class="video" >
+    <div class="video">
         <video src="https://www.w3schools.com/tags/movie.mp4" controls></video>
     </div>
     <div class="audio">
         <audio controls autoplay loop src="https://christianosantos.com/files/cs1/musica01.mp3"></audio>
     </div>
-    
+
 </body>
+
 </html>
 <style>
-    .biography-description{
+    #cabecalho {
+        background-color: blueviolet;
+        margin-top: -21px;
+        margin-left: -8px;
+        padding-bottom: 10px;
+    }
+
+    #titulo-cabecalho {
+        margin-left: 7px;
+        padding-top: 30px;
+    }
+
+    .circle {
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+        border-radius: 50%;
+    }
+
+    .circle img {
+        width: 100%;
+        height: 130%;
+        
+    }
+
+    .biography-description {
         padding-right: 60%;
     }
-    .biography-title{
+
+    .biography-title {
         background-color: black;
     }
-    .find-me{
+
+    .find-me {
         padding-bottom: 2%;
     }
 </style>
