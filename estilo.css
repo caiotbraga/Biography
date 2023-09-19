@@ -18,7 +18,8 @@ article {
     top: 260px;
     right: 400px;
     color: rgb(201, 191, 218);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Georgia, serif;
+    font-size: large;
 }
 
 .imagem-perfil{
@@ -52,7 +53,6 @@ video{
     position:absolute;
     right:140px;
     top:310px;
-
 }
 
 
